@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    height: 90px;
+    border: solid #ffffff 2px;
+}
+
+header h1 {
+    color: #fff;
+    margin-left: 100px;
+    padding-top: 30px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.main a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+.main1 {
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 90vh;
+}
+
+.main3 {
+    background: linear-gradient(to top, #000000, #000000b6);
+    height: 80vh;
+    margin-top: 0;
+    padding-top: 0;
+    overflow: hidden; 
+    
+}
+
+
+/* .main3:hover{
+    background: linear-gradient(to top, #000000, #000000b6);
+
+}
+.main3:hover .c1{
+        display: flex;
+        margin-top: 150px;
+        animation-name: nimisha1;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        position: absolute;
+        z-index: -1;
+        margin-left: 600px;
+}
+    
+    @keyframes nimisha1 {
+        0% {
+           
+            left: 0px;
+            top: 0;
+        }
+    
+        100% {
+    
+            left: 300px;
+            top: 0;
+        }
+    }
+    
+ */
+
+.box {
+    height: 950px;
+    width: 950px;
+    background-color: #F0DE36;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25%;
+    margin-top: 20px;
+ 
+    position: relative;
+    z-index: 1;
+    
+}
+
+.box1 {
+    height: 150px;
+    background-color: #2b99cc;
+    margin-top: -56px;
+    position: relative;
+    z-index: 5;
+}
+
+.box3 img {
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    z-index: 10;
+}
+.cmain {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.c1{
+    height: 170px;
+    float: right;
+    margin-right: -2200px;
+    display: flex;
+    margin-top: 150px;
+    position: absolute;
+   
+   
+}
+
+.main3:hover .c1{
+    animation-name: nimisha1;
+    animation-iteration-count: infinite;
+    animation-duration: 3.9s;
+    
+   
+}
+
+@keyframes nimisha1 {
+    0% {
+       
+        left: 1000px;
+        top: 0;
+    }
+
+    100% {
+
+        left: -0px;
+        top: 0;
+    }
+}
+
+.c2{
+    height: 170px;
+    float: right;
+    margin-top: 80px;
+    margin-right: 500px;
+    display: flex;
+    margin-top: 150px;
+   
+    position: absolute;
+    z-index: 1;
+    /* margin-left: 700px; */
+   
+}
+.main3:hover .c2{
+    animation-name: nimisha2;
+    animation-iteration-count: infinite;
+    animation-duration: 2.9s;
+}
+
+@keyframes nimisha2 {
+    0% {
+       
+        left: -500px;
+        top: 0;
+    }
+
+    100% {
+
+        left: 30px;
+        top: 0;
+    }
+}
+
+
+.text {
+    font-size: 25px;
+    margin-top: 160px;
+    position: absolute;
+    margin-left: 20%;
+}
+
+.text h5 {
+    color: #010d4f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.img10{
+    margin-top: 30px;
+    margin-left: -40px;
+}
+
+.text button {
+    height: 50px;
+    width: 150px;
+    background-color: #010d4f;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 200px;
+}

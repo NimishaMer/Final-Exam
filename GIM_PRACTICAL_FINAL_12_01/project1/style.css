@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    background-color: #164B60;
+}
+
+header h1 {
+    color: #ffffff;
+    padding-top: 20px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.header1 {
+    float: right;
+}
+
+.header1{
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   margin-right: 120px;
+}
+.header1 a {
+  margin-top: -30px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 40px;
+    border: solid 2px white;
+    margin-left: 19px;
+    margin-top: -40px;
+    border-radius: 5px;
+}
+.box i{
+    color: #ffffff;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.main {
+    background: linear-gradient(to left, #c9efc9, #ffffff);
+    height: 91.5vh;
+    margin-top: 0;
+    position: relative;
+    overflow: hidden;
+}
+.main:hover{
+    background: linear-gradient(to left, #c9efc9, #ffffff);
+}
+.main:hover .box1{
+    background-color: #f0de36;
+}
+.main:hover.main button{
+    background-color: #f0de36;
+    color: #000000;
+    margin-top: -10px; 
+}
+.bag{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.hr1 hr{
+    height: 3px;
+    width: 80px;
+    background-color: #000000;
+    top: 190px;
+    left: 100px;
+    position: absolute;
+}
+.main h1{
+    font-size: 50px;
+    padding-top: 250px;
+    margin-left: 100px;
+    font-style: oblique
+}
+.hr1 P{
+    line-height: 35px;
+    height: 150px;
+    width: 600px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+    
+}
+.main button{
+    background-color:  #fd8d14;
+    height: 60px;
+    width: 150px;
+    color: #ffffff;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    /* margin-top: 50px; */
+}
+/* .main button:hover {
+    background-color: #f0de36;
+    color: #000000;
+    margin-top: -10px; 
+} */
+
+.box1 {
+    height: 1000px;
+    width:1000px;
+    border-radius: 50%;
+    background-color: #fd8d14;
+    float: right;
+    position: absolute;
+    top: 350px;
+    left: 800px;
+}
+/* .box1:hover .main button{
+    background-color: #f0de36;
+}
+.box1:hover{
+    background-color: #f0de36;
+} */
+
+/* .box1 img{
+    z-index: 1;
+    position: absolute;
+    height: 750px;
+    width: 1100px;
+    top: 115px;
+    left: 750px;
+} */

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #606C5D;
+    height: 60px;
+    border: solid 2px #fff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+.header1 {
+    justify-content: space-between;
+    margin-right: 20px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -25px; 
+}
+.header1 a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.main1{
+    background-color:  #C1D0B5;
+    height: 93vh;
+    width: 65%;
+    
+}
+.main2{
+    background-color: #606C5D;
+    height: 93vh;
+    width: 35%;
+}
+.img1{
+   height: 800px;
+   width: 500px;
+   margin-left: 100px;
+}
+.img2{
+    height: 430px;
+    width: 300px;
+    top: 200px;
+    left: 1100px;
+    position: absolute;
+}
+.img2:hover{
+    transform: scale(2);
+    transition-duration: 10s;
+    transition-delay: 0s;
+}
+.img3{
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 300px;
+    width: 500px;
+}
+.main1 p{
+
+    margin-top: 500px;
+    line-height: 40px;
+    height: 200px;
+    font-size: 20px;
+    width: 801px;
+    margin-left: 100px;
+}
+.mnk button{
+    height: 50px;
+    width: 150px;
+    background-color: #606C5D;
+    margin-left: 100px;
+    border: none;
+    font-size: 18px;
+    color: #fff;
+}
